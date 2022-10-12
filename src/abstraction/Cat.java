@@ -12,7 +12,7 @@ public class Cat implements Animal{
 
     @Override
     public void attack() {
-        hunting.attackImpl();
+        hunting.attack();
     }
 
     @Override

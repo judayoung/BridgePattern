@@ -9,7 +9,7 @@ public class TeethHunting implements Hunting {
     }
 
     @Override
-    public void attackImpl() {
+    public void attack() {
         System.out.println(teeth + "로 물어뜯는다.");
     }
 }

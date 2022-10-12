@@ -22,7 +22,7 @@ public class BridgeApplication {
         Animal teethCat = new Cat(hunting);
         teethCat.attack();
         teethCat.eat();
-        
+
         System.out.println("...create a dog hunting with teeth");
         Animal teethDog = new Dog(hunting);
         teethDog.attack();
